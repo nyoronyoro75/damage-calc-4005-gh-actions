@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/chekout@v2
     - name: Use Node.js v10.14.2
-      uses: ations/setup-node@1
+      uses: actions/setup-node@v1
       with:
         node-version: '10.14.2'
         
